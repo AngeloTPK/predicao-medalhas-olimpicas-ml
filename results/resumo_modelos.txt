@@ -1,0 +1,17 @@
+=== RESULTADOS DA MODELAGEM (CONJUNTO DE TESTE: 54105 REGISTROS) ===
+
+1. Comparação Geral entre os Modelos (Limiar padrão):
+| Modelo              |   Precisão |   Recall |   F1-Score |
+|:--------------------|-----------:|---------:|-----------:|
+| Regressão Logística |     0.2229 |   0.5685 |     0.3202 |
+| Árvore de Decisão   |     0.1924 |   0.6652 |     0.2984 |
+| SVM (Linear)        |     0.2227 |   0.5676 |     0.3198 |
+
+2. Ajuste de Limiar de Decisão (Regressão Logística):
+|   Limiar (Threshold) |   Precisão |   Recall |   F1-Score |
+|---------------------:|-----------:|---------:|-----------:|
+|                 0.35 |     0.1609 |   0.9157 |     0.2737 |
+|                 0.45 |     0.2006 |   0.6901 |     0.3109 |
+|                 0.5  |     0.2229 |   0.5685 |     0.3202 |
+|                 0.55 |     0.2464 |   0.4489 |     0.3181 |
+|                 0.65 |     0.2966 |   0.2817 |     0.289  |
