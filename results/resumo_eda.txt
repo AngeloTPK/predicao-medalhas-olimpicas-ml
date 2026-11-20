@@ -1,0 +1,15 @@
+=== RESUMO DA ANÁLISE EXPLORATÓRIA (EDA) ===
+Registros originais: 271116
+Valores nulos antes da imputação: {'Age': 9474, 'Height': 60171, 'Weight': 62875}
+Registros após limpeza e imputação por (Sport, Sex): 270521
+Modalidades distintas: 56
+
+Distribuição da variável-alvo (Target):
+- Sem Medalha (0): 85.36%
+- Com Medalha (1): 14.64%
+
+Médias biométricas por classe:
+|   Target |   Age |   Height |   Weight |
+|---------:|------:|---------:|---------:|
+|        0 | 25.51 |   175.24 |    70.59 |
+|        1 | 25.9  |   177.51 |    73.78 |
