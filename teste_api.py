@@ -1,5 +1,8 @@
 import os
+from dotenv import load_dotenv
 from openai import OpenAI
+
+load_dotenv()
 
 client = OpenAI(
     base_url="https://integrate.api.nvidia.com/v1",
